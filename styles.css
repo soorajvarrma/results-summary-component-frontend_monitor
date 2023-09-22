@@ -173,11 +173,76 @@ button:hover{
 
 }
 @media screen and (max-width:496px ){
-    .bg> div{
-        width: 240px;
+    .bg> div {
+        width: 800px;
+        height: 10000px;
+        background-color: white;
+        top:-2200px;
+        z-index: -1;
         }
     .container{
         display: flex;
+        width: 100%;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .left-container{
+        width: 100%;
+        height: 50%;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+    .right-container{
+        width: 100%;
+        height: 50%;
+        border-radius: 10px;
+    }
+    .classes {
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content:center ;
+        align-items: center;
+    }
+    .reaction ,.memory ,.verbal ,.visual{
+        width: 85%;
+        height: 50px;
+        text-align: center;
+    }
+    .reaction>p ,.memory>p ,.verbal>p ,.visual>p{
+        padding-top: 10px;
+    }
+    button{
+        width: 85%;
+    }
+    *{
+        font-size: 1.2rem;
+    }
+    .result-title{
+        padding: 0px;
+    }
+    .result-title >p{
+        padding: 20px 0;
+        font-weight: 500;
+        font-size: 45px;
+    }
+    .result-content > p{
+        padding: 0px 40px 0px 40px;
+        font-size: 1rem;
+        color: rgba(255, 255, 255, 0.576);
+    }
+    .result{
+        width: 160px;
+        height: 160px;
+    }
+    .final-score{
+        margin-top: 35px;
+    }
+    .title{
+        font-size: 35px;
+    }
+    .title-right{
+        padding-left: 30px;
     }
 }
